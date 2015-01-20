@@ -8,6 +8,7 @@ namespace TestXunitAspnet5
         [Fact]
         public void ThatsAFact()
         {
+            Assert.Equal(4, 3);
         }
 
     }
